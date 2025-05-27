@@ -1,5 +1,4 @@
 # SuperHot Vr-Project
----
 This is the gud prototype of the gud project.
 Yes this is the real goods stuff right here.
 DO NOT LOOK AWAY
