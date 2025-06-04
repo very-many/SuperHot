@@ -54,6 +54,7 @@ public class Health : MonoBehaviour
 
     private void Update()
     {
+        TakeDamage(0);
         //blinkTimer -= Time.deltaTime;
         //float lerp = Mathf.Clamp01(blinkDuration / blinkTimer);
         //float intensity = (lerp * blinkIntensity);

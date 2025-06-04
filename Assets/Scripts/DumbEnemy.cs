@@ -44,7 +44,7 @@ public class DumbEnemy : MonoBehaviour
     {
         weapon.transform.parent = null;
         weapon.GetComponent<XRGrabInteractable>().enabled = true;
-        weapon.bulletSpawn.transform.rotation = Quaternion.identity;
+        weapon.bulletSpawn.transform.localRotation = Quaternion.identity;
         Rigidbody weaponRb = weapon.GetComponent<Rigidbody>();
         weaponRb.velocity = Vector3.zero;
         weapon.transform.position += weapon.transform.up * 0.5f;

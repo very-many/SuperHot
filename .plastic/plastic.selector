@@ -1,4 +1,0 @@
-repository "Figmer@TNTBoom4D@cloud"
-  path "/"
-    br "/main"
-    co "/main"
